@@ -19,7 +19,8 @@ export default function Discount() {
   };
 
   return (
-    <div className="container my-5">
+    
+    <div className="container my-5"> {/* card container*/}
       <div className="row gx-0 gy-1">
         <h1 className="text-center">Big Discount</h1>
         {discoutProducts.map((item) => (

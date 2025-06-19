@@ -25,7 +25,7 @@ export default function Newarraivals() {
   );
 
   return (
-    <div className="container my-5">
+    <div className="container my-5">{/* card container*/}
       <h1 className="text-center mb-4">New Arrivals</h1>
       <div className="row gx-0 gy-4 justify-content-center">
         {filtered.map((item, index) => {

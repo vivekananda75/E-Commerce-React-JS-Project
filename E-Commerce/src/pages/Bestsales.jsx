@@ -40,7 +40,7 @@ export default function Newarraivals() {
               <div
                 className="card h-100 shadow border-0"
                 style={{ width: 280, height: 370 , marginLeft:30}}
-              >
+              > {/* card image*/}
                 <div className="position-relative">
                   <Link to={`/products/${item.id}`}><img
                     src={item.imgUrl}
@@ -50,6 +50,7 @@ export default function Newarraivals() {
                   /></Link>  
                 </div>
                 <br />
+                {/* card body*/}
                 <div className="card-body">
                   <h5 className="card-title">{item.productName}</h5>
                   <div className="mb-2" style={{ color: 'gold', fontSize: '18px', display:'flex' }}>
@@ -59,6 +60,7 @@ export default function Newarraivals() {
                   </div>
                   <p className="fw-bolder fs-5">${item.price}</p>
                   <div className="d-flex justify-content-end">
+                    {/* Add to cart button*/}
                     <button
                     onClick={() => handleAddToCart(item)}
                       className="border-1"
