@@ -119,6 +119,7 @@ export default function Productdetails() {
       {/* Tabs */}
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex gap-8  mb-4">
+           {/* Description button*/}
           <button
             className={`pb-2 font-medium text-lg ${
               activeTab === "description" ? "text-black " : "text-gray-500"
@@ -218,6 +219,7 @@ export default function Productdetails() {
                   </p>
                 </div>
                 <FaHeart className="absolute top-4 right-4 text-gray-400 group-hover:text-blue-500 cursor-pointer" />
+                 {/* Add to cart button   */ }
                 <button
                   onClick={() => handleAddToCart(item)}
                   className="border-1 group-hover:text-red-500"
