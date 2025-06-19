@@ -219,7 +219,6 @@ export default function Productdetails() {
                 <FaHeart className="absolute top-4 right-4 text-gray-400 group-hover:text-blue-500 cursor-pointer" />
                 <button
                   onClick={() => handleAddToCart(item)}
-                  //   className="absolute bottom-4 right-4 bg-blue-600 hover:bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center"
                   className="border-1 group-hover:text-red-500"
                   style={{
                     borderRadius: 19,
