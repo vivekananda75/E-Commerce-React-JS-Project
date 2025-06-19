@@ -105,7 +105,7 @@ export default function Productdetails() {
           <p className="text-gray-700">
             {product.description?.slice(0, 100)}...
           </p>
-
+           {/* Add to cart button*/}
           <button
             onClick={() => handleAddToCart(product)}
             className="mt-4 bg-blue-900 hover:bg-blue-300 text-white px-6 py-2 rounded-lg text-lg font-semibold shadow-md"
@@ -132,7 +132,7 @@ export default function Productdetails() {
               activeTab === "reviews" ? " text-black" : "text-gray-500"
             }`}
             onClick={() => setActiveTab("reviews")}
-          >
+          >   {/* Reveiws button*/}
             Reviews
           </button>
         </div>
