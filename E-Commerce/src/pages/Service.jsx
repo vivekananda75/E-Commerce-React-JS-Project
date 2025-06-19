@@ -29,7 +29,7 @@ export default function Service() {
   ];
 
   return (
-    <div className="container my-5">
+    <div className="container my-5">{/* card container*/}
       <div className="row g-4">
         {serviceData.map((item, index) => (
           <div key={index} className="col-md-3 col-sm-6">
@@ -37,7 +37,7 @@ export default function Service() {
               className="  text-center shadow-sm border-0"
               style={{ backgroundColor: item.bg, height: 150 }}
             >
-              <br />
+              <br />{/* card body*/}
               <div className="card-body d-flex flex-column justify-content-center align-items-center">
                 <div
                   className="display-5 mb-3 card-icons"
