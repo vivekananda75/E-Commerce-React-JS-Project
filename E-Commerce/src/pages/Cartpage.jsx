@@ -20,7 +20,7 @@ export default function Cart() {
       {cartProducts.length === 0 ? (
         <div className="text-center">
           {/* Header */}
-          <h2 className="text-3xl font-bold mb-4">Your Cart (0)</h2>
+          <h2 className="text-3xl font-bold mb-4"style={{fontSize:25}}>Your Cart (0)</h2>
 
           {/* Back to Home Button */}
           <Link to="/" className="bg-blue-800 text-white px-4 py-2 mt-2 rounded-md shadow-md hover:bg-blue-600 transition duration-300">
@@ -29,7 +29,7 @@ export default function Cart() {
    
           {/* Empty Cart Message */}
           <div className="mt-6 p-6 border border-gray-300 shadow-xl hover:shadow-2xl rounded-md">
-            <h3 className="text-lg font-semibold text-gray-600">Your Cart is Empty</h3>
+            <h3 className="text-lg font-semibold text-gray-600" style={{fontSize:20}}>Your Cart is Empty</h3>
             <p className="text-gray-500">Please add items to your cart.</p>
             {/* Continue Shopping Button */}
             <Link to="/shopFilter" className="mt-1 inline-block bg-red-500 text-white px-1 py-2 rounded-md shadow-md hover:bg-red-700 transition duration-300">
