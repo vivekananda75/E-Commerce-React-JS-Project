@@ -1,0 +1,45 @@
+.bag-icon {
+  font-size: 25px;
+  margin-left: 70px;
+  /* margin-top: 0px; */
+}
+.logo-text {
+  font-size: 25px;
+  margin-left: 5px;
+  /* margin-top: 2px; */
+}
+.logo-o {
+  margin-top: -20px;
+}
+.nav-links {
+  margin-left: 590px;
+  margin-top: -15px;
+  text-decoration: none;
+}
+.nav-links li{
+  text-decoration: none;
+  list-style: none;
+
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.link- {
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+header {
+  margin-top: 45px;
+}
+   
+.logo-s{
+    margin-left: 30px;  
+    margin-top: -15px;
+    font-size: 18px;
+}
