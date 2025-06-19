@@ -167,6 +167,7 @@ export default function Productdetails() {
                 value={newReview}
                 onChange={(e) => setNewReview(e.target.value)}
               />
+               {/* Review submit button*/}
               <button
                 onClick={handleReviewSubmit}
                 className="mt-4 bg-blue-900 hover:bg-blue-300 text-white px-6 py-2 rounded-lg text-lg font-semibold shadow-md"
