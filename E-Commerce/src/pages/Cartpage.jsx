@@ -32,7 +32,7 @@ export default function Cart() {
             <h3 className="text-lg font-semibold text-gray-600">Your Cart is Empty</h3>
             <p className="text-gray-500">Please add items to your cart.</p>
             {/* Continue Shopping Button */}
-            <Link to="/shopFilter" className="mt-3 inline-block bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-700 transition duration-300">
+            <Link to="/shopFilter" className="mt-1 inline-block bg-red-500 text-white px-1 py-2 rounded-md shadow-md hover:bg-red-700 transition duration-300">
                Continue Shopping
             </Link>
           </div>
